@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TV Show Search</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="container">
+    <h1>TV Show Search</h1>
+    <p>Search for TV shows and save your favourites.</p>
+    <form id="search-form">
+      <input id="search-input" type="search" placeholder="Search TV shows..." aria-label="Search TV shows" required>
+      <button type="submit">Search</button>
+    </form>
+    <p id="status" role="status"></p>
+    <section>
+      <h2>Search Results</h2>
+      <div id="results" class="show-grid"></div>
+    </section>
+    <section>
+      <h2>My Favourites</h2>
+      <div id="favorites" class="show-grid"></div>
+    </section>
+  </main>
+</body>
+</html>
